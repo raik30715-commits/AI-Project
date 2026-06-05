@@ -1,0 +1,14 @@
+[project]
+name = "ai-project"
+version = "0.1.0"
+dependencies = [
+    "flask",
+    "pandas",
+    "joblib",
+    "scikit-learn",
+    "gunicorn",
+    "numpy"
+]
+
+[tool.vercel]
+entrypoint = "ai_api:app"
