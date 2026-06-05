@@ -1,2 +1,0 @@
-[tool.vercel]
-entrypoint = "ai_api:app"
