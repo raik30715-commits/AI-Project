@@ -4,7 +4,12 @@ import joblib
 from math import radians, cos, sin, sqrt, atan2
 
 app = Flask(__name__)
-
+@app.route("/")
+def home():
+    return {
+        "status": "running",
+        "message": "AI Project API is working"
+    }
 # ===========================
 # Load Model & Data ONCE
 # ===========================
