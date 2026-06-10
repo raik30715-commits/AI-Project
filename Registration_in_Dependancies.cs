@@ -4,7 +4,7 @@
 
 // في نفس نمط باقي الـ services الموجودة في المشروع:
 builder.Services.AddHttpClient<IRecommendationService, RecommendationService>();
-builder.Services.AddScoped<IRecommendationService, RecommendationService>();
+
 
 
 // ===========================
